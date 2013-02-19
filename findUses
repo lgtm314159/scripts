@@ -1,0 +1,5 @@
+find where-to-find -name name-of-file -exec rm -f '{}' \;
+find -user username
+find where-to-find -perm permission
+
+find 

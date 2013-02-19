@@ -1,0 +1,2 @@
+ls *.JPG | awk -F. '{print $1}' | xargs -I {} mv {}.JPG {}.jpg
+
